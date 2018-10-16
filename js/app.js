@@ -3,7 +3,7 @@ $(document).ready(function() {
   const $navLink = $('.navLink');
   const $dropdown = $('.dropdown');
   const idArray = ['landingPage','buyHoney','sellHoney','submitResearch','discoverResearch','howItWorks','aboutUs'];
-  const initialLanding = window.location.href.split('#').pop();
+  const initialLanding = window.location.href.split('#landingPage').pop();
 
   $navLink.click( (e) => {
     const clickTarget = e.target.href.split('#').pop();
