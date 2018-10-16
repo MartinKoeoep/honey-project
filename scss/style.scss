@@ -27,6 +27,10 @@ a{
   color: $primary;
 }
 
+h2.alignRight{
+  text-align: right;
+}
+
 .sellHoneyDiv{
   display: flex;
   flex-direction: row;
@@ -39,11 +43,6 @@ a{
   .formMiddle{
     width: 60%
   }
-}
-
-.image img{
-  max-height: 100%;
-  align-self: center;
 }
 
 .submitResearchDiv div.container{

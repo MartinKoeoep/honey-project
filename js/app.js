@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   const $navLink = $('.navLink');
-
+  const $dropdown = $('.dropdown');
   const idArray = ['landingPage','buyHoney','sellHoney','submitResearch','discoverResearch','howItWorks','aboutUs'];
   const initialLanding = window.location.href.split('#').pop();
 
@@ -11,7 +11,6 @@ $(document).ready(function() {
   });
 
   function sectionToggler(target){
-    console.log(target);
     $(`#${target}`).removeClass('hide');
     $(`a[href="#${target}"]`).addClass('active');
     const filteredList = idArray.filter( item => item !== target);
@@ -20,6 +19,10 @@ $(document).ready(function() {
       $(`#${item}`).addClass('hide');
     });
   }
+
+  $dropdown.click(function () {
+    $dropdown.toggleClass('is-active');
+  });
 
   // Check for click events on the navbar burger icon
   $('.navbar-burger').click(function() {
