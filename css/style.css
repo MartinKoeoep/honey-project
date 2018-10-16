@@ -1,0 +1,55 @@
+.navbar-item img {
+  max-height: 3rem;
+}
+
+body {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+section.hero {
+  margin-bottom: 5%;
+}
+
+.hero.is-primary, .button.is-primary {
+  background-color: #380e65;
+}
+
+.button.is-primary:hover {
+  background-color: #380e65;
+  color: orange;
+}
+
+a {
+  color: #380e65;
+}
+
+.sellHoneyDiv {
+  display: flex;
+  flex-direction: row;
+}
+.sellHoneyDiv .formMiddle, .sellHoneyDiv .formRight, .sellHoneyDiv .formLeft {
+  margin: 0 1.5% 0 1.5%;
+}
+.sellHoneyDiv .formLeft, .sellHoneyDiv .formRight {
+  max-width: 30%;
+}
+.sellHoneyDiv .formMiddle {
+  width: 60%;
+}
+
+.image img {
+  max-height: 100%;
+  align-self: center;
+}
+
+.submitResearchDiv div.container {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */

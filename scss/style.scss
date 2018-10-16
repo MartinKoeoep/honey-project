@@ -1,0 +1,52 @@
+$primary: #380e65;
+
+.navbar-item img {
+    max-height: 3rem;
+}
+
+body{
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.hide{
+  display: none;
+}
+section.hero{
+  margin-bottom: 5%;
+}
+
+.hero.is-primary, .button.is-primary{
+    background-color: $primary;
+}
+.button.is-primary:hover{
+  background-color: $primary;
+  color: orange;
+}
+a{
+  color: $primary;
+}
+
+.sellHoneyDiv{
+  display: flex;
+  flex-direction: row;
+  .formMiddle, .formRight, .formLeft{
+    margin: 0 1.5% 0 1.5%;
+  }
+  .formLeft, .formRight{
+    max-width: 30%
+  }
+  .formMiddle{
+    width: 60%
+  }
+}
+
+.image img{
+  max-height: 100%;
+  align-self: center;
+}
+
+.submitResearchDiv div.container{
+  text-align: center;
+  margin-bottom: 5%;
+}
