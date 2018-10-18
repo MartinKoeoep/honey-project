@@ -7,6 +7,21 @@ body {
   margin: 0 auto;
 }
 
+.pageDiv {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.honeyColours {
+  color: #380e65;
+  font-weight: bold;
+}
+
+.aboutUs p {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
 .hide {
   display: none;
 }
@@ -28,6 +43,14 @@ a {
   color: #380e65;
 }
 
+h2.alignRight {
+  text-align: right;
+}
+
+.landingPageVideo {
+  margin-left: 10%;
+}
+
 .sellHoneyDiv {
   display: flex;
   flex-direction: row;
@@ -40,11 +63,6 @@ a {
 }
 .sellHoneyDiv .formMiddle {
   width: 60%;
-}
-
-.image img {
-  max-height: 100%;
-  align-self: center;
 }
 
 .submitResearchDiv div.container {

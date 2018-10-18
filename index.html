@@ -15,8 +15,8 @@
     <header>
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="#landingPage">
-            <img src="./assets/logo_transparent_background.png">
+          <a class="navbar-item navLink" href="#landingPage">
+            <img src="./assets/logo_transparent_background.png" href="#landingPage">
           </a>
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -59,13 +59,101 @@
       </nav>
     </header>
     <main>
-      <div id="landingPage" class="hide">
-        <img src="./assets/logo_transparent_background.png" alt="">
+      <div id="landingPage" class="landingPageDiv pageDiv">
+        <video width="80%" id="landingPageVideo" class="landingPageVideo" autoplay loop >
+          <source src="./assets/buyHoney_saveBees.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
       </div>
-      <div id="buyHoney" class="hide">
-        1
+      <div id="buyHoney" class="hide pageDiv">
+        <div class="columns is-multiline is-mobile">
+          <div class="column is-one-quarter-desktop is-one-third-tablet is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/default_placeholder.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Beekeeper Name</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Types of honey sold
+                  <br>
+                  <button class="button is-primary" type="button" name="button">Buy Honey</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter-desktop is-one-third-tablet is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/default_placeholder.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Beekeeper Name</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Types of honey sold
+                  <br>
+                  <button class="button is-primary" type="button" name="button">Buy Honey</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter-desktop is-one-third-tablet is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/default_placeholder.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Beekeeper Name</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Types of honey sold
+                  <br>
+                  <button class="button is-primary" type="button" name="button">Buy Honey</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter-desktop is-one-third-tablet is-full-mobile">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/default_placeholder.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Beekeeper Name</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Types of honey sold
+                  <br>
+                  <button class="button is-primary" type="button" name="button">Buy Honey</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="sellHoney" class="hide">
+      <div id="sellHoney" class="hide pageDiv">
         <section class="hero is-primary">
           <div class="hero-body">
             <div class="container">
@@ -75,7 +163,7 @@
             </div>
           </div>
         </section>
-        <div class="columns">
+        <div class="columns is-mobile">
           <div class="column is-one-quarter">
             <div class="file has-name is-boxed">
               <label class="file-label">
@@ -151,7 +239,7 @@
           </div>
         </div>
       </div>
-      <div id="submitResearch" class="hide submitResearchDiv">
+      <div id="submitResearch" class="hide submitResearchDiv pageDiv">
         <section class="hero is-primary">
           <div class="hero-body">
             <div class="container">
@@ -175,8 +263,8 @@
             </span>
           </span>
         </div>
-        <div class="columns">
-          <div class="column is-one-third">
+        <div class="columns is-multiline is-mobile">
+          <div class="column is-one-third-desktop is-half-mobile">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
@@ -190,7 +278,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-one-third">
+          <div class="column is-one-third-desktop is-half-mobile">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
@@ -204,7 +292,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-one-third">
+          <div class="column is-one-third-desktop is-half-mobile">
             <div class="card">
               <div class="card-image">
                 <figure class="image">
@@ -220,7 +308,7 @@
           </div>
         </div>
       </div>
-      <div id="discoverResearch" class="hide">
+      <div id="discoverResearch" class="hide pageDiv">
         <div class="columns">
           <div class="column is-one-quarters">
             <a class="button is-large is-fullwidth is-primary">
@@ -232,7 +320,7 @@
             <div class="dropdown">
               <div class="dropdown-trigger">
                 <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
-                  <span>Dropdown button</span>
+                  <span>Order by</span>
                   <span class="icon is-small">
                     <i class="fas fa-angle-down" aria-hidden="true"></i>
                   </span>
@@ -282,7 +370,7 @@
           </div>
           <div class="column is-three-quarters">
             <a class="button is-large is-fullwidth is-primary">Pick a project for me!</a>
-            <div class="columns is-multiline">
+            <div class="columns is-multiline is-mobile">
               <div class="column is-one-third">
                 <div class="card">
                   <div class="card-image">
@@ -345,11 +433,24 @@
 
 
       </div>
-      <div id="aboutUs" class="hide">
-        6
+      <div id="aboutUs" class="hide pageDiv aboutUs">
+        <h1 class="title is-one">About <span class="honeyColours">Bee Good Honey</span></h1>
+        <p>
+          <span class="honeyColours">Bee Good Honey</span> has been founded to join other forces in the world to help preserve bees and wild pollinators across the globe and to help to prevent adulterated honeys entering the market. </p>
+        <p>
+          We believe that by working with beekeepers to fund research through the products they sell we can further extend the good work they do.
+        </p>
+        <p>
+          We are working hard to create a world standard in honey, a trademark that can be traced right back to the person that extracted the honey no matter where they are in the world.
+        </p>
+        <p>
+          By buying from <span class="honeyColours">Bee Good Honey</span>, you can be confident you are making a positive difference to the long term survival of bees.
+        </p>
+
+
       </div>
-      <div id="howItWorks" class="hide">
-        <div class="columns is multiline">
+      <div id="howItWorks" class="hide pageDiv">
+        <div class="columns is-multiline is-mobile">
           <div class="column is-three-quarters">
             <article class="message is-warning">
               <div class="message-header">
@@ -364,7 +465,7 @@
             <img src="./assets/dark_bee_transparent_background.png" alt="">
           </div>
         </div>
-        <div class="columns is multiline">
+        <div class="columns is-multiline is-mobile">
           <div class="column is-one-quarter">
             <img src="./assets/dark_bee_transparent_background.png" alt="">
           </div>
@@ -374,19 +475,21 @@
                 <p>Strategy</p>
               </div>
               <div class="message-body">
-                Help to make a world where pollinators are no longer under threat from extinction and formulate a world standard for honey production.
+                 Creating services for beekeepers for them to increase market share and enabling them to produce a world standard ethically produced honey ensuring the future protection of bees and wild pollinators.
               </div>
             </article>
           </div>
         </div>
-        <div class="columns is multiline">
+        <div class="columns is-multiline is-mobile">
           <div class="column">
             <article class="message is-warning">
               <div class="message-header">
                 <p>Products</p>
               </div>
               <div class="message-body">
-                Help to make a world where pollinators are no longer under threat from extinction and formulate a world standard for honey production.
+                <p>An online marketplace for beekeepers and people who like good honey</p>
+                <p>A funding platform for research projects and worldwide pro-pollinator campaigns</p>
+                <p>A trading standard for all honey producers</p>
               </div>
             </article>
           </div>
