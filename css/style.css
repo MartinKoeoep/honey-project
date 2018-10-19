@@ -47,10 +47,6 @@ h2.alignRight {
   text-align: right;
 }
 
-.landingPageVideo {
-  margin-left: 10%;
-}
-
 .sellHoneyDiv {
   display: flex;
   flex-direction: row;
@@ -68,6 +64,42 @@ h2.alignRight {
 .submitResearchDiv div.container {
   text-align: center;
   margin-bottom: 5%;
+}
+
+.video {
+  margin-left: 10%;
+}
+
+.landingWrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.playpause {
+  background-image: url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png);
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  margin-left: 45%;
+  margin-top: 15%;
+  background-size: contain;
+  background-position: center;
+}
+
+.researchTopic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.researchInline {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

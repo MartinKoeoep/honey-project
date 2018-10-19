@@ -13,7 +13,6 @@ $(document).ready(function() {
     if (e.target.tagName === 'IMG') {
       clickTarget = e.currentTarget.href.split('#').pop();
       sectionToggler(clickTarget);
-      $video[0].play();
     } else {
       clickTarget = e.target.href.split('#').pop();
       $video[0].pause();
@@ -21,7 +20,25 @@ $(document).ready(function() {
     sectionToggler(clickTarget);
     $('.navbar-burger').toggleClass('is-active');
     $('.navbar-menu').toggleClass('is-active');
+    scrollTop();
+
   });
+
+  $('.video').parent().click(function () {
+    if($(this).children('.video').get(0).paused){
+      $(this).children('.video').get(0).play();
+      $(this).children('.playpause').fadeOut();
+    }else{
+      $(this).children('.video').get(0).pause();
+      $(this).children('.playpause').fadeIn();
+    }
+  });
+
+  function scrollTop(){
+    console.log('should be scrolling to the top top top');
+    console.log($('body').scrollTop(0));
+  }
+
 
   function sectionToggler(target){
     $(`#${target}`).removeClass('hide');

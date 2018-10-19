@@ -41,9 +41,6 @@
             <a class="navbar-item navLink" href="#aboutUs">
               About Us
             </a>
-            <a class="navbar-item navLink" href="#howItWorks">
-              How it Works
-            </a>
           </div>
           <div class="navbar-end">
             <div class="navbar-item field has-addons">
@@ -60,10 +57,81 @@
     </header>
     <main>
       <div id="landingPage" class="landingPageDiv pageDiv">
-        <video width="80%" id="landingPageVideo" class="landingPageVideo" autoplay loop >
-          <source src="./assets/buyHoney_saveBees.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
+        <h2 class="title is-one">Buy honey from your local beekeepers</h2>
+        <div class="columns is-multiline is-mobile">
+          <div class="column is-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://images.pexels.com/photos/414115/pexels-photo-414115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  Location Name / Beekeeper name
+                  <br>
+                  <button class="button is-primary" type="button" name="button">See more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://images.pexels.com/photos/414115/pexels-photo-414115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  Location Name / Beekeeper name
+                  <br>
+                  <button class="button is-primary" type="button" name="button">See more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://images.pexels.com/photos/414115/pexels-photo-414115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  Location Name / Beekeeper name
+                  <br>
+                  <button class="button is-primary" type="button" name="button">See more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://images.pexels.com/photos/414115/pexels-photo-414115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  Location Name / Beekeeper name
+                  <br>
+                  <button class="button is-primary" type="button" name="button">See more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="landingWrapper">
+          <video width="80%" id="landingPageVideo" class="video" loop >
+            <source src="./assets/buyHoney_saveBees.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="playpause"></div>
+        </div>
       </div>
       <div id="buyHoney" class="hide pageDiv">
         <div class="columns is-multiline is-mobile">
@@ -71,7 +139,7 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="./assets/default_placeholder.png" alt="Placeholder image">
+                  <img src="https://as2.ftcdn.net/jpg/01/09/17/53/500_F_109175309_RCuHciHGHkqt8x1y2lGrlRm8nIlMn1T4.jpg" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
@@ -92,7 +160,7 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="./assets/default_placeholder.png" alt="Placeholder image">
+                  <img src="https://as2.ftcdn.net/jpg/01/11/58/45/500_F_111584591_vbVQbBadB4rrpFrJrTmyDzyCeB00kMNV.jpg" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
@@ -113,7 +181,7 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="./assets/default_placeholder.png" alt="Placeholder image">
+                  <img src="https://as2.ftcdn.net/jpg/00/63/09/97/500_F_63099779_VLZYMaBD21NFKRXAxLPsr5mO9j3kvH9G.jpg" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
@@ -134,7 +202,7 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="./assets/default_placeholder.png" alt="Placeholder image">
+                  <img src="https://as2.ftcdn.net/jpg/01/04/31/85/500_F_104318540_wSDXXRe2hha5Gzs8O9c1Uzhi0TCUGzu2.jpg" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
@@ -205,10 +273,17 @@
               </div>
             </div>
             <div class="field">
-              <label class="label">Where is your honey from?</label>
-              <div class="control">
-                <textarea class="textarea" placeholder="Textarea"></textarea>
-              </div>
+              <label class="label">Upload products to sell</label>
+              <input class="file-input" type="file" name="resume">
+              <span class="file-cta">
+                <span class="file-icon">
+                  <i class="fas fa-upload"></i>
+                </span>
+                <span class="file-label">
+                  Choose file(s)…
+                </span>
+              </span>
+            </label>
             </div>
             <div class="field">
               <div class="control">
@@ -230,7 +305,7 @@
           <div class="column is-one-third">
             <article class="message is-warning">
               <div class="message-header">
-                <p>How this works?</p>
+                <p>Verification Process</p>
               </div>
               <div class="message-body">
                 When you submit your profile we will contact you to arrange a visit to your hives and verify your production processes
@@ -263,45 +338,136 @@
             </span>
           </span>
         </div>
+        <div class="researchTopic">
+          <div class="topicLeft">
+            <p class="researchInline">Funded <span class="honeyColours">4 projects found</span></p>
+          </div>
+          <div class="topicRight">
+            <p class="researchInline">Sort by:</p>
+            <div class="dropdown is-right">
+              <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                  <span>Best Match</span>
+                  <span class="icon is-small">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                <div class="dropdown-content">
+                  <div class="dropdown-item">
+                    <p>Popular</p>
+                  </div>
+                  <div class="dropdown-item">
+                    <p>Newest</p>
+                  </div>
+                  <div class="dropdown-item">
+                    <p>Best Match</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="researchInline" ><strong>Recent</strong></p>
+            <p class="researchInline"><strong>Funding goals met</strong></p>
+          </div>
+        </div>
         <div class="columns is-multiline is-mobile">
-          <div class="column is-one-third-desktop is-half-mobile">
+          <div class="column is-one-quarter">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="https://media-public.canva.com/MACV94_SFhk/1/screen.jpg" alt="Placeholder image">
+                  <img src="https://images.pexels.com/photos/774242/pexels-photo-774242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">ZomBees: Are parasites controlling the minds of honey bees?</p>
+                  </div>
+                </div>
+
                 <div class="content">
-                  Domestic and wild pollinators are under serious threat.
+                  <p class="title is-5">Erika M. Bueno</p>
+                  <p class="subtitle is-5">San Fransisco State University</p>
+                  <br>
+                  <progress class="progress is-warning" value="100" max="100"></progress>
+                  <p class="subtitle is-5 researchInline">102% Funded</p>
+                  <button class="button is-warning" type="button" name="button">Biology</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-one-third-desktop is-half-mobile">
+          <div class="column is-one-quarter">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-4by3">
-                  <img src="https://media-public.canva.com/MACDWVX1g64/1/screen.png" alt="Placeholder image">
+                  <img src="https://images.pexels.com/photos/65656/bee-flower-pollen-color-65656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">E Pluribus Unum: how honey bee bacteria coordinate behaviours?</p>
+                  </div>
+                </div>
+
                 <div class="content">
-                  Food fraud is a major threat to the honey industry.
+                  <p class="title is-5">Irene Newton</p>
+                  <p class="subtitle is-5">Indiana University</p>
+                  <br>
+                  <progress class="progress is-warning" value="100" max="100"></progress>
+                  <p class="subtitle is-5 researchInline">101% Funded</p>
+                  <button class="button is-warning" type="button" name="button">Biology</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="column is-one-third-desktop is-half-mobile">
+          <div class="column is-one-quarter">
             <div class="card">
               <div class="card-image">
-                <figure class="image">
-                  <img src="https://media-public.canva.com/MAC6jsfPQ8Y/1/screen.jpg" alt="Placeholder image">
+                <figure class="image is-4by3">
+                  <img src="https://images.pexels.com/photos/8257/spoon-honey-jar.jpg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Manuka Honey: A New Tool in the Battle Against Antibiotic Resistance?</p>
+                  </div>
+                </div>
+
                 <div class="content">
-                  Worldwide invesment in drone pollinators threatens the ongoing protection of bees.
+                  <p class="title is-5">Gabrielle Hayes</p>
+                  <p class="subtitle is-5">High Point University</p>
+                  <br>
+                  <progress class="progress is-warning" value="100" max="100"></progress>
+                  <p class="subtitle is-5 researchInline">101% Funded</p>
+                  <button class="button is-warning" type="button" name="button">Biology</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://images.pexels.com/photos/379926/pexels-photo-379926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Are cities hostile environments for honey bees?</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p class="title is-5">Manuel Lequeica</p>
+                  <p class="subtitle is-5">The University of Sydney</p>
+                  <br>
+                  <progress class="progress is-warning" value="100" max="100"></progress>
+                  <p class="subtitle is-5 researchInline">100% Funded</p>
+                  <button class="button is-warning" type="button" name="button">Biology</button>
                 </div>
               </div>
             </div>
@@ -370,63 +536,16 @@
           </div>
           <div class="column is-three-quarters">
             <a class="button is-large is-fullwidth is-primary">Pick a project for me!</a>
-            <div class="columns is-multiline is-mobile">
-              <div class="column is-one-third">
-                <div class="card">
-                  <div class="card-image">
-                    <figure class="image is-4by3">
-                      <img src="https://media-public.canva.com/MACV94_SFhk/1/screen.jpg" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="content">
-                      Domestic and wild pollinators are under serious threat.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column is-one-third">
-                <div class="card">
-                  <div class="card-image">
-                    <figure class="image is-4by3">
-                      <img src="https://media-public.canva.com/MACDWVX1g64/1/screen.png" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="content">
-                      Food fraud is a major threat to the honey industry.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column is-one-third">
-                <div class="card">
-                  <div class="card-image">
-                    <figure class="image">
-                      <img src="https://media-public.canva.com/MAC6jsfPQ8Y/1/screen.jpg" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="content">
-                      Worldwide invesment in drone pollinators threatens the ongoing protection of bees.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="column is-one-third">
-                <div class="card">
-                  <div class="card-image">
-                    <figure class="image">
-                      <img src="https://media-public.canva.com/MABfEGhrJRQ/1/screen.jpg" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="card-content">
-                    <div class="content">
-                      There are many thousands of people worldwide working to help the plight of pollinators.
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <h1 class="title is-one">Categories</h1>
+            <div class="buttons is-multiline">
+              <span class="button is-medium is-primary">Pollination</span>
+              <span class="button is-medium is-primary">Bee Viruses</span>
+              <span class="button is-medium is-primary">Monoculture</span>
+              <span class="button is-medium is-primary">Pesticide Use</span>
+              <span class="button is-medium is-primary">Solitary bees</span>
+              <span class="button is-medium is-primary">Honey and produce</span>
+              <span class="button is-medium is-primary">Beekeeping & Husbandry</span>
+              <span class="button is-medium is-primary">Honeybees</span>
             </div>
           </div>
         </div>
@@ -448,55 +567,6 @@
         </p>
 
 
-      </div>
-      <div id="howItWorks" class="hide pageDiv">
-        <div class="columns is-multiline is-mobile">
-          <div class="column is-three-quarters">
-            <article class="message is-warning">
-              <div class="message-header">
-                <p>Vision</p>
-              </div>
-              <div class="message-body">
-                Help to make a world where pollinators are no longer under threat from extinction and formulate a world standard for honey production.
-              </div>
-            </article>
-          </div>
-          <div class="column is-one-quarter">
-            <img src="./assets/dark_bee_transparent_background.png" alt="">
-          </div>
-        </div>
-        <div class="columns is-multiline is-mobile">
-          <div class="column is-one-quarter">
-            <img src="./assets/dark_bee_transparent_background.png" alt="">
-          </div>
-          <div class="column">
-            <article class="message is-warning">
-              <div class="message-header">
-                <p>Strategy</p>
-              </div>
-              <div class="message-body">
-                 Creating services for beekeepers for them to increase market share and enabling them to produce a world standard ethically produced honey ensuring the future protection of bees and wild pollinators.
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="columns is-multiline is-mobile">
-          <div class="column">
-            <article class="message is-warning">
-              <div class="message-header">
-                <p>Products</p>
-              </div>
-              <div class="message-body">
-                <p>An online marketplace for beekeepers and people who like good honey</p>
-                <p>A funding platform for research projects and worldwide pro-pollinator campaigns</p>
-                <p>A trading standard for all honey producers</p>
-              </div>
-            </article>
-          </div>
-          <div class="column is-one-quarter">
-            <img src="./assets/dark_bee_transparent_background.png" alt="">
-          </div>
-        </div>
       </div>
     </main>
   </body>
